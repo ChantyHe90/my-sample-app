@@ -52,6 +52,7 @@ class App extends React.Component {
       <div className="products-app">
         <h1>Humanitec Sample App</h1>
         <h2>Task list</h2>
+        <h2>This is a new test!!!</h2>
         <ProductCreator onCreate={this.handleProductCreated} />
         <Products products={this.state.products} loading={this.state.productsLoading} />
         <ErrorMessage message={this.state.errorMessage} />
